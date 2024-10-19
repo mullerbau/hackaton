@@ -1,0 +1,83 @@
+.corpo{
+    display: flex;
+}
+.cabeca{
+    background-image: url(../img/background.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    display: flex;
+}
+.cabeca img{
+    margin: auto;
+    
+}
+.principal {
+    margin: auto;
+    
+}
+.informacoes__pessoais {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.endereco {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5rem;
+}
+.contato {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5rem;
+}
+.preferencias {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5rem;
+}
+
+input{
+    margin-top: 1rem;
+    width: 18.3125rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.label{
+    margin-top: 1rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5rem;
+}
+select{
+    margin-top: 1rem;
+    margin-top: 1rem;
+    width: 18.3125rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
